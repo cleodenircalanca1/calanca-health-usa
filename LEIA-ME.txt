@@ -1,0 +1,35 @@
+CALANCA HEALTH — LANDING PAGE 001
+
+O projeto está pronto para publicação no GitHub Pages.
+
+ANTES DE PUBLICAR, faça somente duas substituições:
+
+1. Abra index.html e substitua:
+   AFFILIATE_LINK_HERE
+   pelo seu HopLink da ClickBank.
+
+2. Abra contact.html e substitua:
+   YOUR_EMAIL_HERE
+   pelo e-mail de contato da Calanca Health.
+
+ARQUIVOS:
+- index.html: página principal
+- style.css: aparência da página
+- script.js: aviso enquanto o HopLink não foi inserido
+- privacy.html: política de privacidade
+- terms.html: termos de uso
+- contact.html: contato
+- logo-calanca-health.png: logotipo aprovado
+
+PUBLICAÇÃO NO GITHUB PAGES:
+1. Crie uma conta gratuita no GitHub.
+2. Crie um repositório público.
+3. Envie todos estes arquivos.
+4. Abra Settings > Pages.
+5. Em Source, escolha Deploy from a branch.
+6. Selecione main e /root.
+7. Salve e aguarde a URL pública.
+
+IMPORTANTE:
+A campanha do Google Ads só deve usar a URL depois que a página estiver publicada
+e o HopLink estiver funcionando.
