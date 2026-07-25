@@ -1,61 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calanca Health | Everyday Wellness</title>
-<meta name="description" content="Practical information about everyday wellness, product labels, ingredients, purchasing terms, and responsible choices.">
-<style>
-:root{--bg:#f4f8f5;--card:#fff;--text:#173047;--muted:#586b78;--green:#22963f;--dark:#187530;--blue:#07549b;--border:#dce7e1;--soft:#eaf5ee}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
-a{color:inherit}.container{width:min(1080px,calc(100% - 40px));margin:auto}header{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
-.header-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{width:145px;height:auto;display:block}
-nav a{text-decoration:none;font-weight:700;margin-left:24px}.hero{padding:82px 0 64px;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)}
-.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:42px}.eyebrow{margin:0 0 12px;color:var(--blue);font-size:.86rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
-h1{margin:0 0 20px;font-size:clamp(2.25rem,5vw,4rem);line-height:1.1}.hero p{margin:0 0 28px;max-width:680px;color:var(--muted);font-size:1.12rem}
-.button{display:inline-block;padding:14px 24px;border-radius:9px;background:var(--green);color:#fff;text-decoration:none;font-weight:800}.button:hover{background:var(--dark)}
-.hero-card,.card,.feature{background:#fff;border:1px solid var(--border);border-radius:16px;box-shadow:0 12px 34px rgba(23,48,71,.06)}.hero-card{padding:30px}
-main{padding:58px 0 70px}.section-heading{max-width:720px;margin:0 auto 32px;text-align:center}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{padding:25px}
-.feature{margin-top:48px;padding:34px}.feature-grid{display:grid;grid-template-columns:1fr auto;align-items:center;gap:30px}
-.notice{margin-top:40px;padding:24px;background:var(--soft);border-left:5px solid var(--green);border-radius:8px}
-footer{padding:36px 0;color:#dfe9e3;background:#132b22}footer a{color:#fff;margin-right:18px}.small{color:#b8c8bf;font-size:.86rem}
-@media(max-width:780px){.hero-grid,.feature-grid,.grid{grid-template-columns:1fr}nav{display:none}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everyday Wellness and Product Guides | Calanca Health</title>
+  <meta name="description" content="Calanca Health shares practical wellness information, responsible product guides and transparent affiliate recommendations for adults.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="container header-inner">
-<a href="index.html"><img class="logo" src="logo-calanca-health.png" alt="Calanca Health"></a>
-<nav><a href="#guide">Wellness Guide</a><a href="#product">Product Information</a><a href="#disclosure">Disclosure</a></nav>
-</div></header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Calanca Health home">
+        <img src="logo-calanca-health.png" alt="Calanca Health">
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#categories">Topics</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero"><div class="container hero-grid">
-<div><p class="eyebrow">Calanca Health Wellness Guide</p><h1>Simple Information for Better Everyday Choices</h1>
-<p>Learn how to review product labels, ingredient information, purchasing terms, and seller details before choosing a wellness product.</p>
-<a class="button" href="#guide">Read the Guide</a></div>
-<aside class="hero-card"><h2>Start With the Basics</h2><ul>
-<li>Read the complete label.</li><li>Review the seller's terms.</li><li>Compare ingredients and directions.</li><li>Choose products with realistic information.</li>
-</ul></aside></div></section>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">CALANCA HEALTH</p>
+          <h1>Clear Information for Better Everyday Choices</h1>
+          <p class="lead">
+            Explore practical wellness topics, responsible product guides and
+            transparent recommendations designed to help adults make informed choices.
+          </p>
+          <a class="button primary" href="#categories">
+            Explore Topics
+          </a>
+          <p class="small-note">
+            General educational information only. Product information should always be
+            reviewed on the official seller's website before purchase.
+          </p>
+        </div>
 
-<main><div class="container">
-<section id="guide"><div class="section-heading"><h2>What to Review Before Buying</h2>
-<p>A responsible choice begins with clear information, careful reading, and realistic expectations.</p></div>
-<div class="grid">
-<article class="card"><h3>Read the Label</h3><p>Check the complete ingredient list, serving directions, warnings, and manufacturer information.</p></article>
-<article class="card"><h3>Review the Terms</h3><p>Confirm the current price, shipping conditions, refund policy, recurring-order terms, and customer-service information.</p></article>
-<article class="card"><h3>Make an Informed Choice</h3><p>Compare the information available and avoid expecting guaranteed or immediate results from any wellness product.</p></article>
-</div></section>
+        <aside class="hero-card" aria-label="Why choose Calanca Health">
+          <h2>Why choose Calanca Health?</h2>
+          <p>
+            We focus on clear information, realistic expectations, responsible
+            recommendations and transparent affiliate disclosure.
+          </p>
+        </aside>
+      </div>
+    </section>
 
-<section class="feature" id="product"><div class="feature-grid">
-<div><h2>Learn More About InsuLeaf</h2><p>InsuLeaf is offered by an independent third-party seller. Product details, ingredients, price, availability, shipping, and refund terms may change. Review the latest information on the seller's official page before ordering.</p></div>
-<a class="button" href="https://0250e4pdlgjyte3ardykrvqqaf.hop.clickbank.net" target="_blank" rel="nofollow sponsored noopener noreferrer">Visit the Official Product Page</a>
-</div></section>
+    <section id="categories" class="section">
+      <div class="container">
+        <p class="eyebrow">FEATURED TOPICS</p>
+        <h2>Explore everyday wellness topics</h2>
+        <p class="section-intro">
+          Our content is organized to make it easier to find practical information
+          and compare products responsibly.
+        </p>
 
-<section class="notice" id="disclosure"><h2>Affiliate Disclosure</h2>
-<p>This page contains general educational information. Calanca Health may receive a commission when a purchase is completed through an affiliate link, at no additional cost to the purchaser.</p>
-<p>Product claims, pricing, availability, guarantees, and refund terms are controlled by the independent seller. Always review the seller's current information before making a purchase.</p>
-</section></div></main>
+        <div class="cards">
+          <article class="card">
+            <span>01</span>
+            <h3>Nutrition</h3>
+            <p>General information about balanced food choices and everyday routines.</p>
+          </article>
 
-<footer><div class="container"><strong>Calanca Health</strong><p>Practical information for everyday wellness choices.</p>
-<p><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="contact.html">Contact</a></p>
-<p class="small">© 2026 Calanca Health. All rights reserved.</p></div></footer>
-</body></html>
+          <article class="card">
+            <span>02</span>
+            <h3>Healthy Living</h3>
+            <p>Simple ideas related to movement, sleep, hydration and daily organization.</p>
+          </article>
+
+          <article class="card">
+            <span>03</span>
+            <h3>Supplements</h3>
+            <p>Responsible guidance about labels, ingredients, directions and seller information.</p>
+          </article>
+
+          <article class="card">
+            <span>04</span>
+            <h3>Product Guides</h3>
+            <p>Clear summaries to help visitors review products before making a purchase.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section soft">
+      <div class="container">
+        <p class="eyebrow">FEATURED PRODUCTS</p>
+        <h2>Products selected for further research</h2>
+        <p class="section-intro">
+          Calanca Health may feature products that could interest adults looking for
+          additional wellness support. Inclusion does not guarantee results and is not
+          a medical recommendation.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <span>01</span>
+            <h3>InsuLeaf</h3>
+            <p>
+              A dietary supplement offered by an independent seller. Review the official
+              product page for current ingredients, directions, price, shipping and refund terms.
+            </p>
+            <a class="button secondary affiliate-link"
+               href="https://0250e4pdlgjyte3ardykrvqqaf.hop.clickbank.net"
+               rel="nofollow sponsored">
+              View Official Product Information
+            </a>
+          </article>
+
+          <article class="card">
+            <span>02</span>
+            <h3>More products coming soon</h3>
+            <p>
+              This section is prepared to receive additional product guides in the future.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">ABOUT CALANCA HEALTH</p>
+          <h2>Information, transparency and responsible recommendations</h2>
+          <p>
+            Calanca Health is an independent informational website for adults interested
+            in everyday wellness topics and product research.
+          </p>
+          <p>
+            We aim to use clear language, avoid unrealistic promises and encourage visitors
+            to verify product details directly with the official seller.
+          </p>
+        </div>
+
+        <div class="check-panel">
+          <h3>Our principles</h3>
+          <ul>
+            <li>Clear and understandable information</li>
+            <li>Realistic expectations</li>
+            <li>Transparent affiliate relationships</li>
+            <li>Respect for professional healthcare guidance</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container callout">
+        <p class="eyebrow">TRANSPARENCY</p>
+        <h2>How affiliate links work</h2>
+        <p>
+          Some links on this website are affiliate links. If a visitor purchases through
+          one of these links, Calanca Health may receive a commission at no additional
+          cost to the visitor. This does not change the product price set by the seller.
+        </p>
+        <p>
+          Product details, availability, prices, shipping and refund policies are controlled
+          by the independent seller and may change without notice.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>Calanca Health</strong>
+        <p>Clear Information for Better Everyday Choices</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="container disclaimer">
+      <p>
+        The information on this website is for general educational purposes only and is
+        not intended to diagnose, treat, cure or prevent any disease. Dietary supplements
+        are not substitutes for professional medical care, prescribed treatment or a
+        balanced lifestyle. Consult a qualified healthcare professional when appropriate.
+      </p>
+      <p>Copyright © 2026 Calanca Health.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
