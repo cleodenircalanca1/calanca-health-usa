@@ -1,0 +1,9 @@
+ETAPA 1 — PÁGINA DO INSULEAF
+
+Copie para a pasta calanca-health-usa:
+- index.html
+- insuleaf.html
+
+O Windows perguntará para substituir somente o index.html.
+O insuleaf.html será um arquivo novo.
+Não copie o LEIA_PRIMEIRO.txt para o projeto.
