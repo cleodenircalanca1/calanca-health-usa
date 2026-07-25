@@ -3,141 +3,278 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blood Sugar Wellness | Calanca Health</title>
-  <meta name="description" content="Educational information about common signs related to blood sugar wellness and healthy lifestyle support.">
-  <link rel="stylesheet" href="style.css">
+  <title>Calanca Health | Everyday Wellness Information</title>
+  <meta name="description" content="Practical information to help adults evaluate wellness products, ingredients, labels, and purchasing terms responsibly.">
+  <style>
+    :root {
+      --bg: #f5f8f6;
+      --card: #ffffff;
+      --text: #1d2a24;
+      --muted: #5a6a61;
+      --accent: #206a4a;
+      --accent-dark: #164b35;
+      --border: #dce7e0;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav {
+      max-width: 1080px;
+      margin: auto;
+      padding: 18px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent-dark);
+    }
+
+    .nav a {
+      color: var(--text);
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      max-width: 1080px;
+      margin: auto;
+      padding: 72px 22px 54px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      max-width: 780px;
+      margin: 0 auto 18px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.15;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 0 auto 30px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button:hover { background: var(--accent-dark); }
+
+    main {
+      max-width: 1080px;
+      margin: auto;
+      padding: 0 22px 60px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 26px 0 28px;
+    }
+
+    .section-title p {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 8px auto 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .card p { color: var(--muted); }
+
+    .feature {
+      margin-top: 42px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    .feature ul {
+      padding-left: 22px;
+    }
+
+    .notice {
+      margin-top: 42px;
+      padding: 22px;
+      border-left: 4px solid var(--accent);
+      background: #edf5f0;
+    }
+
+    footer {
+      background: #14241c;
+      color: #dfe9e3;
+      padding: 34px 22px;
+    }
+
+    .footer-inner {
+      max-width: 1080px;
+      margin: auto;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    .small {
+      font-size: 0.86rem;
+      color: #b8c8bf;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .nav { align-items: flex-start; }
+      .nav-links { display: none; }
+      .hero { padding-top: 50px; }
+    }
+  </style>
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="brand" aria-label="Calanca Health home">
-        <img src="logo-calanca-health.png" alt="Calanca Health">
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="#signs">Common Signs</a>
-        <a href="#wellness">Wellness</a>
-        <a href="#about">About</a>
+  <header>
+    <div class="nav">
+      <div class="brand">Calanca Health</div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#guide">Wellness Guide</a>
+        <a href="#product">Product Information</a>
+        <a href="#disclosure">Disclosure</a>
       </nav>
     </div>
   </header>
 
+  <section class="hero">
+    <h1>Make More Informed Wellness Choices</h1>
+    <p>
+      Clear, practical information to help adults review supplement labels,
+      ingredients, purchasing terms, and manufacturer information responsibly.
+    </p>
+    <a class="button" href="#guide">Read the Wellness Guide</a>
+  </section>
+
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">CALANCA HEALTH WELLNESS GUIDE</p>
-          <h1>7 Warning Signs Your Blood Sugar May Need Attention</h1>
-          <p class="lead">
-            Learn about common signs that may deserve attention, healthy daily habits,
-            and a natural wellness option for adults.
-          </p>
-          <a class="button primary affiliate-link" href="https://0250e4pdlgjyte3ardykrvqqaf.hop.clickbank.net" rel="nofollow sponsored">
-            Learn More
-          </a>
-          <p class="small-note">Educational content only. This page does not provide medical diagnosis.</p>
-        </div>
-
-        <aside class="hero-card" aria-label="Wellness reminder">
-          <h2>Healthy habits come first</h2>
-          <p>
-            Balanced nutrition, regular physical activity, quality sleep and guidance
-            from qualified healthcare professionals are the foundation of good health.
-          </p>
-        </aside>
-      </div>
-    </section>
-
-    <section id="signs" class="section">
-      <div class="container">
-        <p class="eyebrow">WHAT TO WATCH FOR</p>
-        <h2>Common signs people often notice</h2>
-        <p class="section-intro">
-          These signs can have many different causes. Only a qualified healthcare
-          professional can evaluate your individual situation.
-        </p>
-
-        <div class="cards">
-          <article class="card"><span>01</span><h3>Frequent thirst</h3></article>
-          <article class="card"><span>02</span><h3>Feeling tired most of the day</h3></article>
-          <article class="card"><span>03</span><h3>Frequent urination</h3></article>
-          <article class="card"><span>04</span><h3>Blurred vision</h3></article>
-          <article class="card"><span>05</span><h3>Slow healing</h3></article>
-          <article class="card"><span>06</span><h3>Increased hunger</h3></article>
-          <article class="card"><span>07</span><h3>Tingling in hands or feet</h3></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="wellness" class="section soft">
-      <div class="container two-column">
-        <div>
-          <p class="eyebrow">DAILY WELLNESS</p>
-          <h2>Why blood sugar wellness matters</h2>
-          <p>
-            Supporting overall wellness begins with practical daily choices. A balanced
-            eating pattern, regular movement, sufficient sleep and professional medical
-            guidance can all play an important role.
-          </p>
-          <p>
-            Some adults also choose dietary supplements as part of their wellness routine.
-            Supplements are not a substitute for medical care, prescribed treatment or
-            healthy lifestyle habits.
-          </p>
-        </div>
-
-        <div class="check-panel">
-          <h3>Helpful foundations</h3>
-          <ul>
-            <li>Balanced nutrition</li>
-            <li>Regular physical activity</li>
-            <li>Quality sleep</li>
-            <li>Professional healthcare guidance</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container callout">
-        <p class="eyebrow">CALANCA HEALTH</p>
-        <h2>Educational wellness information for better daily choices</h2>
+    <section id="guide">
+      <div class="section-title">
+        <h2>What to Review Before Choosing a Supplement</h2>
         <p>
-          Calanca Health shares clear, responsible wellness information and introduces
-          products that may interest adults seeking natural lifestyle support.
-        </p>
-        <a class="button secondary affiliate-link" href="AFFILIATE_LINK_HERE" rel="nofollow sponsored">
-          Discover More
-        </a>
-        <p class="affiliate-disclosure">
-          Affiliate disclosure: Calanca Health may receive a commission when a visitor
-          purchases through links on this page, at no additional cost to the visitor.
+          A responsible decision begins with transparent information and realistic expectations.
         </p>
       </div>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Read the Label</h3>
+          <p>
+            Review the complete ingredient list, serving directions, warnings,
+            and manufacturer details before making a purchase.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Check the Terms</h3>
+          <p>
+            Confirm the current price, shipping conditions, refund policy,
+            subscription terms, and customer-service information.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Ask a Professional</h3>
+          <p>
+            Speak with a qualified healthcare professional before using a supplement,
+            especially when taking medication or managing a medical condition.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature" id="product">
+      <h2>Information About InsuLeaf</h2>
+      <p>
+        InsuLeaf is a dietary supplement offered by an independent third-party seller.
+        Product details, ingredients, price, availability, shipping, and refund terms
+        may change. Review all information on the seller's official page before ordering.
+      </p>
+
+      <ul>
+        <li>Review the complete ingredient label.</li>
+        <li>Follow the directions and warnings supplied by the seller.</li>
+        <li>Do not use supplements as a substitute for professional medical care.</li>
+        <li>Confirm the latest purchasing and refund terms before payment.</li>
+      </ul>
+
+      <a
+        class="button"
+        href="https://0250e4pdlgjyte3ardykrvqqaf.hop.clickbank.net"
+        target="_blank"
+        rel="nofollow sponsored noopener"
+      >
+        Visit the Official Product Page
+      </a>
+    </section>
+
+    <section class="notice" id="disclosure">
+      <h2>Important Disclosure</h2>
+      <p>
+        Calanca Health provides general educational information and does not provide
+        medical diagnosis or treatment. This page may contain affiliate links.
+        We may receive a commission if a purchase is made through one of those links,
+        at no additional cost to the purchaser.
+      </p>
+      <p>
+        Statements about dietary supplements have not been evaluated by the U.S.
+        Food and Drug Administration. Supplements are not intended to diagnose,
+        treat, cure, or prevent any disease.
+      </p>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-grid">
-      <div>
-        <strong>Calanca Health</strong>
-        <p>Natural Support for Better Living</p>
-      </div>
-      <div class="footer-links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Use</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-    <div class="container disclaimer">
-      <p>
-        The information on this website is for educational purposes only and is not
-        intended to diagnose, treat, cure or prevent any disease. Always consult a
-        qualified healthcare professional before making changes to your health routine.
+    <div class="footer-inner">
+      <strong>Calanca Health</strong>
+      <p>General wellness information for adults.</p>
+      <p class="small">
+        © 2026 Calanca Health. All rights reserved.
       </p>
-      <p>Copyright © 2026 Calanca Health.</p>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
